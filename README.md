@@ -15,16 +15,11 @@ Instalación de las dependencias de Python:
 ```bash
 pip3 install -r requirements.txt
 ```
+## Uso de IA
 
-Si no se tiene Java instalado, se puede usar un JDK (por ejemplo Temurin 17) y
-apuntar `JAVA_HOME` hacia él antes de ejecutar:
+* Se utilizo el modelo Claude Opus 4.8 en modo de Plan para crear un plan de trabajo con el fin de completar todos los pasos de la tarea. Claude me fue guiando y explicando las instrucciones. Esto fue de gran ayuda ya que paso a paso iba entrando en detalle sobre como funcionaba el procesamiento de los datos y los requerimientos.
 
-```bash
-export JAVA_HOME=/ruta/al/jdk-17/Contents/Home
-export PATH="$JAVA_HOME/bin:$PATH"
-```
-
-## Ejecución
+## Ejecucion
 
 ```bash
 spark-submit programaestudiante.py crossref/*.json
