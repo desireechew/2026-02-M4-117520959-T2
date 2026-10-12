@@ -1,0 +1,9 @@
+output/
+data/
+crossref/
+__pycache__/
+*.pyc
+.pytest_cache/
+spark-warehouse/
+.DS_Store
+2026-02-M4-T2.md
